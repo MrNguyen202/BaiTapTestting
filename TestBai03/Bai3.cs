@@ -5,7 +5,7 @@ using MethodLibrary;
 namespace TestBai03
 {
     [TestClass]
-    public class UnitTest1
+    public class Bai3
     {
         [TestMethod] // Test case 1
         public void TestMethod1()

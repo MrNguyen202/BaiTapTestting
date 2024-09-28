@@ -4,11 +4,13 @@ using System;
 namespace TestBai06
 {
     [TestClass]
-    public class UnitTest1
+    public class Bai6
     {
         [TestMethod]
+        []
         public void TestMethod1()
         {
+
         }
     }
 }
