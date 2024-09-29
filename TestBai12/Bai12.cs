@@ -21,7 +21,7 @@ namespace TestBai12
         }
 
         [TestMethod] // Test case 3
-        public void TestMethod2()
+        public void TestMethod3()
         {
             MethodLibrary.MethodLibrary methodLibrary = new MethodLibrary.MethodLibrary();
             int[] a = new int[0];
@@ -34,7 +34,7 @@ namespace TestBai12
         }
 
         [TestMethod] // Test case 4
-        public void TestMethod3()
+        public void TestMethod4()
         {
             MethodLibrary.MethodLibrary methodLibrary = new MethodLibrary.MethodLibrary();
             int[] a = { 2, 3, 4, 2147483647 };
@@ -47,7 +47,7 @@ namespace TestBai12
         }
 
         [TestMethod] // Test case 5
-        public void TestMethod4()
+        public void TestMethod5()
         {
             MethodLibrary.MethodLibrary methodLibrary = new MethodLibrary.MethodLibrary();
             int[] a = { -2147483647, -2147483647 };
