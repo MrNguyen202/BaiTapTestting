@@ -7,7 +7,6 @@ namespace TestBai06
     public class Bai6
     {
         [TestMethod]
-        []
         public void TestMethod1()
         {
 

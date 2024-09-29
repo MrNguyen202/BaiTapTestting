@@ -1,0 +1,7 @@
+﻿a, b, c, rst, x1, x2
+2,2,2,Vô nghiệm,NaN,NaN
+0,0,0,Vô số nghiệm,NaN,NaN
+0,0,2,Vô nghiệm,NaN,NaN
+2,3,4,Vô nghiệm,NaN,NaN
+2,4,2,Có nghiệm kép,-1,-1
+1,-5,4,Có 2 nghiệm phân biệt,1,4
