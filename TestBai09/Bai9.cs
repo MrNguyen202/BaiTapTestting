@@ -13,9 +13,9 @@ namespace TestBai09
         public void TestMethod1()
         {
             MethodLibrary.MethodLibrary methodLibrary = new MethodLibrary.MethodLibrary();
-            long s0 = Convert.ToInt64(TestContext.DataRow["s0"]);
-            long Expected_k = Convert.ToInt64(TestContext.DataRow["k"]);
-            long expected_S = Convert.ToInt64(TestContext.DataRow["s"]);
+            long s0 = Convert.ToInt64(TestContext.DataRow["s0"].ToString());
+            long Expected_k = Convert.ToInt64(TestContext.DataRow["k"].ToString());
+            long expected_S = Convert.ToInt64(TestContext.DataRow["s"].ToString());
 
             long actual = methodLibrary.Sum(s0, out long s);
 
